@@ -1,0 +1,22 @@
+package TestNG_GroupingAnnotationTesting;
+
+import org.testng.annotations.Test;
+
+public class RegressionGroupTesting {
+	
+	@Test(priority=1, groups = {"regression"})
+	void LoginFacebookApp() {
+		System.out.println("FACEBOOK APP OPEN");
+	}
+	
+	@Test(priority=2, groups = {"regression"})
+	void LoginGoogleApp() {
+		System.out.println("GOOGLE APP OPEN");
+	}
+	
+	@Test(priority=3, groups = {"regression"})
+	void LoginMicroSoftApp() {
+		System.out.println("MICROSOFT APP OPEN");
+	}
+
+}

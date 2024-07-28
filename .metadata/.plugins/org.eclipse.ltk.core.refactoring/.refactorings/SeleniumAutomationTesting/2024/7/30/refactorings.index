@@ -1,0 +1,23 @@
+1721573640105	Rename type 'BeforeAndAfterTestAnnotationTest'
+1721573811219	Copy compilation unit
+1721573889754	Rename package 'ClassAndMethodAnnotations.SuiteAndTestAnnotation'
+1721574164634	Rename package 'SuiteAndTestAnnotations'
+1721633102914	Rename package 'AllTestAnnotations'
+1721633117658	Rename package 'BeforeAndAfterSuiteTestAnnotations'
+1721633133318	Rename package 'BeforeAndAfterTestAnnotations'
+1721633148726	Rename package 'ClassAndMethodAnnotations'
+1721633190887	Rename package 'AllTestAnnotationsInTestNG'
+1721633216869	Rename package 'SeleniumWithTestNG'
+1721633242597	Rename package 'AssertionsInTestNG'
+1721633259806	Rename package 'TestNG_AllTestAnnotations'
+1721633285691	Rename package 'DependsOnmethodAnnotation'
+1721633307716	Rename package 'BeforeAndAfterSuiteTestAnnotationsInTestNG'
+1721633331996	Rename package 'BeforeAndAfterTestAnnotationsInTestNG'
+1721633355260	Rename package 'ClassAndMethodAnnotationsInTestNG'
+1721633376447	Rename package 'GroupingAnnotation'
+1721633896472	Rename resource 'testng.xml'
+1721634582010	Rename resource 'Regression.xml'
+1721634591971	Rename resource 'Sanity.xml'
+1722003468894	Rename resource 'testng.xml'
+1722009788554	Delete element
+1722080471349	Delete element

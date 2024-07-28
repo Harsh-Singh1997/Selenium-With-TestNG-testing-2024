@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OnlySanitySuite">
+  <test thread-count="5" name="OnlySanityTest">
+  	<groups>
+  	<run>
+  	<include name="sanity"></include>
+  	<exclude name="regression"></exclude>
+  	</run>
+  	</groups>
+  
+    <classes>
+      <class name="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+      <class name="TestNG_GroupingAnnotationTesting.SanityGroupTesting"/>
+      <class name="TestNG_GroupingAnnotationTesting.RegressionGroupTesting"/>
+    </classes>
+  </test> <!-- SanityTest -->
+</suite> <!-- SanitySuite -->

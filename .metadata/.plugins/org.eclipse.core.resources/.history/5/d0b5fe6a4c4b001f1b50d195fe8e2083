@@ -1,0 +1,5 @@
+package TestNG_DataProviderAnnotation;
+
+public class DataProviderAnnotationTesting {
+
+}

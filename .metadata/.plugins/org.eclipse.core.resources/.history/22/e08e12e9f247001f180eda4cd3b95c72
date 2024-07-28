@@ -1,0 +1,28 @@
+package AssertionsInTestNG;
+
+import org.testng.Assert;
+
+/*
+Soft Assertions: Soft Assertion is a type of assertion where if a assertion fails, the test will fail but still all test steps will run after assertion.
+*/
+
+import org.testng.asserts.SoftAssert;
+
+public class SoftAssertionTest {
+
+	void softassertion() {
+	
+		SoftAssert sa = new SoftAssert(); // declaration of soft assertion
+	
+	//Soft Assertion
+	Assert.assertEquals("LinkedIn", "LinkedIn");
+	System.out.println("TEST 1 Executed..........");
+	Assert.assertEquals("Googlemail", "Googlemail");
+	System.out.println("TEST 2 Executed..........");
+	Assert.assertEquals("Android", "Apple");
+	System.out.println("TEST 3 Executed.........."); //This test will still execute even if above assertion fail
+	System.out.println("TEST 4 Executed.........."); //This test will still execute even if above assertion fail
+	
+	sa.assertAll();
+	}
+}

@@ -1,0 +1,24 @@
+package lecture5;
+
+import static io.restassured. RestAssured.*;
+import static io.restassured.matcher. RestAssuredMatchers.*;
+import static org.hamcrest. Matchers.*;
+
+public class XMLParsingTest {
+	
+	void testXMLResponse() {
+		
+		given()
+		
+		.when()
+		.get("https://thetestrequest.com/authors.xml")
+		
+		.then()
+		.statusCode(200)
+		.header("Content-Type", "application/xml; charset=utf-8")
+		.body("objects.object[0].name", equalTo("Karl Zboncak"))
+		.body("objects.object[1].id", equalTo("2"));
+
+	}
+
+}

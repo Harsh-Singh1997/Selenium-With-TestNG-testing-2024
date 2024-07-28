@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="29" passed="29" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-27T20:22:09 IST" name="Suite" finished-at="2024-07-27T20:22:20 IST" duration-ms="10822">
+    <groups>
+      <group name="functional">
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInFacebookApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInGoogleApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInMicroSoftApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+      </group> <!-- functional -->
+      <group name="regression">
+        <method signature="RegressionGroupTesting.LoginFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def]" name="LoginFacebookApp" class="TestNG_GroupingAnnotationTesting.RegressionGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInFacebookApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+        <method signature="RegressionGroupTesting.LoginGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def]" name="LoginGoogleApp" class="TestNG_GroupingAnnotationTesting.RegressionGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInGoogleApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+        <method signature="RegressionGroupTesting.LoginMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def]" name="LoginMicroSoftApp" class="TestNG_GroupingAnnotationTesting.RegressionGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInMicroSoftApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="SanityGroupTesting.OpenFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1]" name="OpenFacebookApp" class="TestNG_GroupingAnnotationTesting.SanityGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInFacebookApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+        <method signature="SanityGroupTesting.OpenGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1]" name="OpenGoogleApp" class="TestNG_GroupingAnnotationTesting.SanityGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInGoogleApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+        <method signature="SanityGroupTesting.OpenMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1]" name="OpenMicroSoftApp" class="TestNG_GroupingAnnotationTesting.SanityGroupTesting"/>
+        <method signature="Sanity_Regression_FunctionalGroupTesting.PaymentInMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" name="PaymentInMicroSoftApp" class="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-07-27T20:22:09 IST" name="Test1" finished-at="2024-07-27T20:22:14 IST" duration-ms="5099">
+      <class name="TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1">
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1@5e1fa5b1]" started-at="2024-07-27T20:22:09 IST" name="Login" finished-at="2024-07-27T20:22:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Test1()[pri:0, instance:TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1@5e1fa5b1]" started-at="2024-07-27T20:22:14 IST" name="Test1" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1 -->
+      <class name="TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2">
+        <test-method signature="Test1()[pri:0, instance:TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2@2f17e30d]" started-at="2024-07-27T20:22:14 IST" name="Test1" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2@2f17e30d]" started-at="2024-07-27T20:22:14 IST" name="Login" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2 -->
+      <class name="TestNG_GroupingAnnotationTesting.SanityGroupTesting">
+        <test-method signature="OpenFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1]" started-at="2024-07-27T20:22:14 IST" name="OpenFacebookApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenFacebookApp -->
+        <test-method signature="OpenMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1]" started-at="2024-07-27T20:22:14 IST" name="OpenMicroSoftApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenMicroSoftApp -->
+        <test-method signature="OpenGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1]" started-at="2024-07-27T20:22:14 IST" name="OpenGoogleApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenGoogleApp -->
+      </class> <!-- TestNG_GroupingAnnotationTesting.SanityGroupTesting -->
+      <class name="TestNG_GroupingAnnotationTesting.RegressionGroupTesting">
+        <test-method signature="LoginFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def]" started-at="2024-07-27T20:22:14 IST" name="LoginFacebookApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginFacebookApp -->
+        <test-method signature="LoginGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def]" started-at="2024-07-27T20:22:14 IST" name="LoginGoogleApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginGoogleApp -->
+        <test-method signature="LoginMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def]" started-at="2024-07-27T20:22:14 IST" name="LoginMicroSoftApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginMicroSoftApp -->
+      </class> <!-- TestNG_GroupingAnnotationTesting.RegressionGroupTesting -->
+      <class name="TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations">
+        <test-method signature="SearchInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations@19648c40]" started-at="2024-07-27T20:22:14 IST" name="SearchInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInApp -->
+        <test-method signature="OpenLinkInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations@19648c40]" started-at="2024-07-27T20:22:14 IST" name="OpenLinkInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLinkInApp -->
+        <test-method is-config="true" signature="LogoutFromApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations@19648c40]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="LoginInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations@19648c40]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp -->
+      </class> <!-- TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations -->
+      <class name="TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting">
+        <test-method signature="PaymentInFacebookApp()[pri:1, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" started-at="2024-07-27T20:22:14 IST" name="PaymentInFacebookApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInFacebookApp -->
+        <test-method signature="PaymentInGoogleApp()[pri:2, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" started-at="2024-07-27T20:22:14 IST" name="PaymentInGoogleApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInGoogleApp -->
+        <test-method signature="PaymentInMicroSoftApp()[pri:3, instance:TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1]" started-at="2024-07-27T20:22:14 IST" name="PaymentInMicroSoftApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PaymentInMicroSoftApp -->
+      </class> <!-- TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting -->
+      <class name="TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3">
+        <test-method signature="LinkValidation()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3@4aa83f4f]" started-at="2024-07-27T20:22:14 IST" name="LinkValidation" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LinkValidation -->
+      </class> <!-- TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3 -->
+      <class name="TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2">
+        <test-method signature="Test1()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2@43b6123e]" started-at="2024-07-27T20:22:14 IST" name="Test1" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2@43b6123e]" started-at="2024-07-27T20:22:14 IST" name="Login" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+      </class> <!-- TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2 -->
+      <class name="TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing">
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:09 IST" name="Login" finished-at="2024-07-27T20:22:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Test1()[pri:1, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="Test1" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="LogoutFromApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp2 -->
+        <test-method is-config="true" signature="LoginInApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp2 -->
+        <test-method is-config="true" signature="LoginInApp()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp -->
+        <test-method signature="Test2()[pri:2, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="Test2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method signature="OpenLinkInApp2()[pri:6, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="OpenLinkInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLinkInApp2 -->
+        <test-method signature="SearchInApp2()[pri:5, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="SearchInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInApp2 -->
+        <test-method signature="SearchInApp()[pri:3, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="SearchInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInApp -->
+        <test-method signature="OpenLinkInApp()[pri:4, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="OpenLinkInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLinkInApp -->
+        <test-method is-config="true" signature="LogoutFromApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp2 -->
+        <test-method is-config="true" signature="LoginInApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp2 -->
+        <test-method is-config="true" signature="LoginInApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp2 -->
+        <test-method is-config="true" signature="LogoutFromApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp2 -->
+        <test-method is-config="true" signature="LoginInApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp2 -->
+        <test-method is-config="true" signature="LogoutFromApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp2 -->
+        <test-method is-config="true" signature="LoginInApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp2 -->
+        <test-method is-config="true" signature="LogoutFromApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp2 -->
+        <test-method is-config="true" signature="LogoutFromApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp2 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="Logout" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="LogoutFromApp()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="LoginInApp2()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp2" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp2 -->
+      </class> <!-- TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing -->
+      <class name="TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1">
+        <test-method is-config="true" signature="Login()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1@6b00f608]" started-at="2024-07-27T20:22:09 IST" name="Login" finished-at="2024-07-27T20:22:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="Test1()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1@6b00f608]" started-at="2024-07-27T20:22:14 IST" name="Test1" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+      </class> <!-- TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1 -->
+      <class name="TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations">
+        <test-method is-config="true" signature="LoginInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp -->
+        <test-method signature="OpenLinkInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64]" started-at="2024-07-27T20:22:14 IST" name="OpenLinkInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLinkInApp -->
+        <test-method signature="SearchInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64]" started-at="2024-07-27T20:22:14 IST" name="SearchInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchInApp -->
+        <test-method is-config="true" signature="LogoutFromApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="LogoutFromApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64]" started-at="2024-07-27T20:22:14 IST" name="LogoutFromApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutFromApp -->
+        <test-method is-config="true" signature="LoginInApp()[pri:0, instance:TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64]" started-at="2024-07-27T20:22:14 IST" name="LoginInApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginInApp -->
+      </class> <!-- TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations -->
+      <class name="TestNG_SeleniumTesting.LoginAppUsingTestNG">
+        <test-method signature="OpenApp()[pri:1, instance:TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24]" started-at="2024-07-27T20:22:09 IST" name="OpenApp" finished-at="2024-07-27T20:22:12 IST" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenApp -->
+        <test-method signature="LogininApp()[pri:2, instance:TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24]" started-at="2024-07-27T20:22:12 IST" name="LogininApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="2120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogininApp -->
+        <test-method signature="HomePageTitleValidation()[pri:3, instance:TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24]" started-at="2024-07-27T20:22:14 IST" name="HomePageTitleValidation" finished-at="2024-07-27T20:22:14 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageTitleValidation -->
+        <test-method signature="LogOutfromApp()[pri:4, instance:TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24]" started-at="2024-07-27T20:22:14 IST" name="LogOutfromApp" finished-at="2024-07-27T20:22:14 IST" duration-ms="136" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutfromApp -->
+      </class> <!-- TestNG_SeleniumTesting.LoginAppUsingTestNG -->
+    </test> <!-- Test1 -->
+    <test started-at="2024-07-27T20:22:14 IST" name="Test2" finished-at="2024-07-27T20:22:20 IST" duration-ms="5673">
+      <class name="TestNG_ParallelTestingUsingXML.ParallelTestingUsingXML">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:TestNG_ParallelTestingUsingXML.ParallelTestingUsingXML@1b2c4efb]" started-at="2024-07-27T20:22:14 IST" name="setup" finished-at="2024-07-27T20:22:16 IST" duration-ms="1756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="logintest()[pri:0, instance:TestNG_ParallelTestingUsingXML.ParallelTestingUsingXML@1b2c4efb]" started-at="2024-07-27T20:22:16 IST" name="logintest" finished-at="2024-07-27T20:22:20 IST" duration-ms="3800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:TestNG_ParallelTestingUsingXML.ParallelTestingUsingXML@1b2c4efb]" started-at="2024-07-27T20:22:20 IST" name="teardown" finished-at="2024-07-27T20:22:20 IST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestNG_ParallelTestingUsingXML.ParallelTestingUsingXML -->
+      <class name="TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3">
+        <test-method is-config="true" signature="OpenLink()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3@4aa83f4f]" started-at="2024-07-27T20:22:09 IST" name="OpenLink" finished-at="2024-07-27T20:22:09 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLink -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3@4aa83f4f]" started-at="2024-07-27T20:22:20 IST" name="CloseBrowser" finished-at="2024-07-27T20:22:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3 -->
+      <class name="TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing">
+        <test-method is-config="true" signature="OpenLink()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:09 IST" name="OpenLink" finished-at="2024-07-27T20:22:09 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenLink -->
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd]" started-at="2024-07-27T20:22:20 IST" name="CloseBrowser" finished-at="2024-07-27T20:22:20 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>

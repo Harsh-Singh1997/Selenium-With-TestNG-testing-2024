@@ -1,0 +1,25 @@
+package lecture4;
+
+import org.testng.annotations.Test;
+import static io.restassured. RestAssured.*;
+import static io.restassured.matcher. RestAssuredMatchers.*;
+import static org.hamcrest. Matchers.*;
+
+public class ParsingResponseTest {
+
+	@Test
+	void testResonse() {
+		
+		given()
+		.contentType("ContentType.json")
+		
+		.when()
+		.get("http://localhost:3000/store")
+		
+		.then()
+		.statusCode(200)
+		.header("Content-Type", "application/json");
+		
+	}
+	
+}

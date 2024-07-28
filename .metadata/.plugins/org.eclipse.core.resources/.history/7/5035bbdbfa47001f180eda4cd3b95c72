@@ -1,0 +1,35 @@
+package DependsOnmethodAnnotation;
+
+/*
+ Using dependsOnMethod annotation we can make dependency of one test on another method. 
+ It means if One method got fails then if will skip all the methods depend on that test. 
+ */
+
+public class DependsOnMethodAnnotationTest {
+	
+	void openApp() {
+		
+		System.out.println("Test 1: App Open");
+	}
+	
+	void loginInApp() {
+		
+		System.out.println("Test 2: Login in App");
+	}
+	
+	void searchInApp() {
+		
+		System.out.println("Test 3: Search testing in App");
+	}
+	
+	void advancedSearchInApp() {
+		
+		System.out.println("Test 4: Advanced search testing in App");
+	}
+	
+	void LogoutFromApp() {
+		
+		System.out.println("Test 5: Logout from App");
+	}
+
+}

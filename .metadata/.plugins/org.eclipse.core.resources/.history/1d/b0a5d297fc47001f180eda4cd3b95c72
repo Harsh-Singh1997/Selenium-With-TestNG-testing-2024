@@ -1,0 +1,5 @@
+package TestNG_GroupingAnnotationTesting;
+
+public class SanityGroupTesting {
+
+}

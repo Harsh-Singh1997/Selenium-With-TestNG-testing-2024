@@ -1,0 +1,33 @@
+package AssertionsInTestNG;
+
+import org.testng.Assert;
+
+/*
+ Assertions can be used to pass or fail the test method as per the test condition.
+ */
+
+public class AssertionsTest {
+
+	void Assertionstest() {
+		
+		String exp_text = "GoogleXP";
+		String act_text = "GoogleXP";
+		
+		//Assertion using if-else condition
+		
+		if(exp_text.equals(act_text)) {
+			
+			System.out.println("TEST: PASS");
+			Assert.assertTrue(true);
+		} else {
+			
+			System.out.println("TEST: Fail");
+			Assert.assertTrue(false);
+			
+		}
+		
+	
+		
+	}
+	
+}

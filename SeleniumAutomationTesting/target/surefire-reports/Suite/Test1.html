@@ -1,0 +1,220 @@
+<html>
+<head>
+<title>TestNG:  Test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>28/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Jul 27 20:22:09 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>5 seconds (5099 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations.OpenLinkInApp()'><b>OpenLinkInApp</b><br>Test class: TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations</td>
+<td></td>
+<td>0</td>
+<td>TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64</td></tr>
+<tr>
+<td title='TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing.Test2()'><b>Test2</b><br>Test class: TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing</td>
+<td></td>
+<td>0</td>
+<td>TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd</td></tr>
+<tr>
+<td title='TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing.OpenLinkInApp2()'><b>OpenLinkInApp2</b><br>Test class: TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing</td>
+<td></td>
+<td>0</td>
+<td>TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd</td></tr>
+<tr>
+<td title='TestNG_SeleniumTesting.LoginAppUsingTestNG.LogininApp()'><b>LogininApp</b><br>Test class: TestNG_SeleniumTesting.LoginAppUsingTestNG</td>
+<td></td>
+<td>2</td>
+<td>TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting.PaymentInFacebookApp()'><b>PaymentInFacebookApp</b><br>Test class: TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1</td></tr>
+<tr>
+<td title='TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1.Test1()'><b>Test1</b><br>Test class: TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1</td>
+<td></td>
+<td>0</td>
+<td>TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest1@5e1fa5b1</td></tr>
+<tr>
+<td title='TestNG_SeleniumTesting.LoginAppUsingTestNG.HomePageTitleValidation()'><b>HomePageTitleValidation</b><br>Test class: TestNG_SeleniumTesting.LoginAppUsingTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24</td></tr>
+<tr>
+<td title='TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1.Test1()'><b>Test1</b><br>Test class: TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1</td>
+<td></td>
+<td>0</td>
+<td>TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest1@6b00f608</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.RegressionGroupTesting.LoginFacebookApp()'><b>LoginFacebookApp</b><br>Test class: TestNG_GroupingAnnotationTesting.RegressionGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.RegressionGroupTesting.LoginGoogleApp()'><b>LoginGoogleApp</b><br>Test class: TestNG_GroupingAnnotationTesting.RegressionGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def</td></tr>
+<tr>
+<td title='TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing.SearchInApp2()'><b>SearchInApp2</b><br>Test class: TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing</td>
+<td></td>
+<td>0</td>
+<td>TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd</td></tr>
+<tr>
+<td title='TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2.Test1()'><b>Test1</b><br>Test class: TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2</td>
+<td></td>
+<td>0</td>
+<td>TestNG_BeforeAndAfterTestAnnotationsTesting.BeforeAndAfterTestAnnotationTest2@2f17e30d</td></tr>
+<tr>
+<td title='TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations.SearchInApp()'><b>SearchInApp</b><br>Test class: TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations</td>
+<td></td>
+<td>0</td>
+<td>TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations@19648c40</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.SanityGroupTesting.OpenFacebookApp()'><b>OpenFacebookApp</b><br>Test class: TestNG_GroupingAnnotationTesting.SanityGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1</td></tr>
+<tr>
+<td title='TestNG_SeleniumTesting.LoginAppUsingTestNG.LogOutfromApp()'><b>LogOutfromApp</b><br>Test class: TestNG_SeleniumTesting.LoginAppUsingTestNG</td>
+<td></td>
+<td>0</td>
+<td>TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24</td></tr>
+<tr>
+<td title='TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing.SearchInApp()'><b>SearchInApp</b><br>Test class: TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing</td>
+<td></td>
+<td>0</td>
+<td>TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd</td></tr>
+<tr>
+<td title='TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3.LinkValidation()'><b>LinkValidation</b><br>Test class: TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3</td>
+<td></td>
+<td>0</td>
+<td>TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest3@4aa83f4f</td></tr>
+<tr>
+<td title='TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2.Test1()'><b>Test1</b><br>Test class: TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2</td>
+<td></td>
+<td>0</td>
+<td>TestNG_BeforeAndAfterSuiteTestAnnotationsTesting.SuiteTest2@43b6123e</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.SanityGroupTesting.OpenMicroSoftApp()'><b>OpenMicroSoftApp</b><br>Test class: TestNG_GroupingAnnotationTesting.SanityGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1</td></tr>
+<tr>
+<td title='TestNG_SeleniumTesting.LoginAppUsingTestNG.OpenApp()'><b>OpenApp</b><br>Test class: TestNG_SeleniumTesting.LoginAppUsingTestNG</td>
+<td></td>
+<td>2</td>
+<td>TestNG_SeleniumTesting.LoginAppUsingTestNG@59f63e24</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting.PaymentInGoogleApp()'><b>PaymentInGoogleApp</b><br>Test class: TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1</td></tr>
+<tr>
+<td title='TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations.SearchInApp()'><b>SearchInApp</b><br>Test class: TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations</td>
+<td></td>
+<td>0</td>
+<td>TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterMethodAnnotations@12bd8a64</td></tr>
+<tr>
+<td title='TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations.OpenLinkInApp()'><b>OpenLinkInApp</b><br>Test class: TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations</td>
+<td></td>
+<td>0</td>
+<td>TestNG_ClassAndMethodAnnotationsTesting.BeforeAndAfterClassAnnotations@19648c40</td></tr>
+<tr>
+<td title='TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing.Test1()'><b>Test1</b><br>Test class: TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing</td>
+<td></td>
+<td>0</td>
+<td>TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting.PaymentInMicroSoftApp()'><b>PaymentInMicroSoftApp</b><br>Test class: TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.Sanity_Regression_FunctionalGroupTesting@260e86a1</td></tr>
+<tr>
+<td title='TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing.OpenLinkInApp()'><b>OpenLinkInApp</b><br>Test class: TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing</td>
+<td></td>
+<td>0</td>
+<td>TestNG_AllTestAnnotationsTesting.AllTestAnnotationsTesing@3300f4fd</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.SanityGroupTesting.OpenGoogleApp()'><b>OpenGoogleApp</b><br>Test class: TestNG_GroupingAnnotationTesting.SanityGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.SanityGroupTesting@613a8ee1</td></tr>
+<tr>
+<td title='TestNG_GroupingAnnotationTesting.RegressionGroupTesting.LoginMicroSoftApp()'><b>LoginMicroSoftApp</b><br>Test class: TestNG_GroupingAnnotationTesting.RegressionGroupTesting</td>
+<td></td>
+<td>0</td>
+<td>TestNG_GroupingAnnotationTesting.RegressionGroupTesting@61e94def</td></tr>
+</table><p>
+</body>
+</html>
